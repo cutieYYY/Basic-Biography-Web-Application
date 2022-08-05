@@ -51,8 +51,8 @@ body \{\
 \}\
 \
 \
-##CSS Flexbox Layout Module\
-The flex container becomes flexible by setting the display property to flex: \
+##CSS Flexbox Layout Module
+The flex container becomes flexible by setting the display property to flex: 
 .flex-container \{\
   display: flex;\
 \}\

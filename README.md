@@ -3,11 +3,8 @@ This is my first bio app about Leonardo Da Vinci biography. I applied CSS Backgr
 \
 \
 ##CSS Background Patterns skills\
-Patterns are a fantastic way to add a significant effect to a website architecture. They also don\'92t require an excessive amount of effort.\
-Background patterns increase the attractiveness of a website.\
-The first thing that needs to be mastered in order to create patterns using CSS is the linear-gradient function that CSS3 provides. \
-The linear-gradient function can be used in several ways, by tweaking multiple properties, but the most basic usage is the one wherein we specify \
-the starting color and the ending color like so:\
+Patterns are a fantastic way to add a significant effect to a website architecture. They also don\'92t require an excessive amount of effort. Background patterns increase the attractiveness of a website.\
+The first thing that needs to be mastered in order to create patterns using CSS is the linear-gradient function that CSS3 provides. The linear-gradient function can be used in several ways, by tweaking multiple properties, but the most basic usage is the one wherein we specify the starting color and the ending color like so:\
 background: linear-gradient(<starting-color>, <ending-color>, ...<other-colors>);\
 ###Basic patterns\
 ####Two-color symmetric gradient\
@@ -25,8 +22,7 @@ background: linear-gradient(to right, #e66465, #9198e5);\
 ####Multi-color patterns\
 Just like the previous examples that used two colors, we can supply as many numbers of colors we like and get those beautiful gradients just as easily. Here is an example:\
 background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c, #561423);\
-Also, in addition to specifying the direction using the to syntax that we used before, there are other ways of achieving the same result.\
-Supplying an angular value as the first argument means the gradient gets rotated accordingly. Supplying an angular value of 180 degrees keeps the pattern as is.\
+Also, in addition to specifying the direction using the to syntax that we used before, there are other ways of achieving the same result. Supplying an angular value as the first argument means the gradient gets rotated accordingly. Supplying an angular value of 180 degrees keeps the pattern as is.
 background: linear-gradient(30deg, #3f87a6, #ebf8e1, #f69d3c, #561423);\
 The second method is a fraction to the turn units, like 0.25turn.\
 background: linear-gradient(0.33turn, #3f87a6, #ebf8e1, #f69d3c, #561423);\

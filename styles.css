@@ -1,0 +1,109 @@
+html {
+    background:linear-gradient(217deg, rgba(215, 213, 207, 0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(207, 182, 83, 0.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(98, 98, 95, 0.8), rgba(0,0,255,0) 70.71%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0;
+   
+}
+div.head {
+    background-image: url("images/Ratio.png");
+    padding-bottom: 20px;
+}
+
+.header,.footer {
+text-align: center;
+position: relative;
+font-size: 2rem;
+background-color: rgb(31, 41, 218);
+color:rgb(235, 132, 6);
+}
+.headimage {
+    display: block;
+    margin-top: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50% 1000000px;
+}
+section h2{
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+section.bio,section.achievement{
+    height: 50vh;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #ACACAC;
+    font-weight: bold;
+}
+section.bio {
+  background-image: radial-gradient(rgb(234, 226, 225) 20%, transparent 20%),
+     radial-gradient(rgb(206, 206, 163) 20%, transparent 20%);
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  width: 100%;
+}
+section.achievement{
+    padding:40px;
+    background-color: #73bcc9;
+    background-image: linear-gradient(to bottom right, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+    background-size: 50px 50px;
+}
+section.works{
+   padding:50px;
+   font-size: 25px;
+   background-image: url("images/canvas.png");
+   
+}
+section.works img, section.works div{
+    margin:20px;
+ }
+section.works ul {
+    list-style: none;
+    background-image: url("images/canvas1.png");
+}
+.flex{
+    display: flex;
+}
+.down{
+    padding:35px;
+}
+.footer {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 1200px) {
+    .header{
+        font-size: 1.5rem;
+    }
+    .head{
+        height:60vh;
+    }
+   
+    section.bio {
+        height: 110vh;
+    }
+    section.achievement{
+        height: 80vh;
+  }
+  
+  .flex{
+    flex-direction: column;
+  }
+
+  .center{
+    display: flex;
+      justify-content: center;
+  }
+  
+}

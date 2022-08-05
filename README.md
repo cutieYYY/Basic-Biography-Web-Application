@@ -61,10 +61,10 @@ The row value stacks the flex items horizontally (from left to right):\
   display: flex;\
   flex-direction: row;\
 \}\
-\
-## Media Queries\
-\
-Responsive Flexbox\
+
+## Media Queries
+
+Responsive Flexbox
 .flex-container \{\
   display: flex;\
   flex-direction: row;\

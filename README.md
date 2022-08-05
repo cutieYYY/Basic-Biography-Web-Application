@@ -1,6 +1,5 @@
  # Basic-Biography-Web-Application
-This is my first bio app about Leonardo Da Vinci biography. I applied CSS Background Patterns skills, Flexbox skills, \
-and media queries skills to this web app.\
+This is my first bio app about Leonardo Da Vinci biography. I applied CSS Background Patterns skills, Flexbox skills,and media queries skills to this web app.\
 \
 \
 ##CSS Background Patterns skills\

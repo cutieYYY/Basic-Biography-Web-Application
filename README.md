@@ -3,7 +3,7 @@ This is my first bio app about Leonardo Da Vinci biography. I applied CSS Backgr
 \
 \
 ##CSS Background Patterns skills\
-Patterns are a fantastic way to add a significant effect to a website architecture. They also don\'92t require an excessive amount of effort. Background patterns increase the attractiveness of a website.\
+Patterns are a fantastic way to add a significant effect to a website architecture. They also do not require an excessive amount of effort. Background patterns increase the attractiveness of a website.\
 The first thing that needs to be mastered in order to create patterns using CSS is the linear-gradient function that CSS3 provides. The linear-gradient function can be used in several ways, by tweaking multiple properties, but the most basic usage is the one wherein we specify the starting color and the ending color like so:\
 background: linear-gradient(<starting-color>, <ending-color>, ...<other-colors>);\
 ###Basic patterns\
